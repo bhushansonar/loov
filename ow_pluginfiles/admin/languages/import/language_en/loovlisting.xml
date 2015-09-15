@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="loovlisting" label="Loov Listing" language_tag="en" language_label="English">
+    <key name="menu_item_men_list">
+        <value>Men</value>
+    </key>
+</prefix>

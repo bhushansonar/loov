@@ -1,0 +1,40 @@
+{form name='configSaveForm'}
+
+<table class="ow_table_1 ow_form">
+    <tr class="ow_tr_first">
+        <th class="ow_name ow_txtleft" colspan="3">
+            <span class="ow_section_icon ow_ic_gear_wheel">{text key='googlelocation+general_settings'}</span>
+        </th>
+    </tr>
+    <tr class="ow_alt1">
+        <td class="ow_label">{text key='googlelocation+api_key'}</td>
+        <td class="ow_value">
+            {input name='api_key'}  <br /> {error name='api_key'}
+        </td>
+        <td class="ow_desc ow_small">{text key='googlelocation+api_key_description'}</td>
+    </tr>
+    <tr class="ow_alt1 ">
+        <td class="ow_label">{text key='googlelocation+distanse_units'}</td>
+        <td class="ow_value">
+            {input name='distanse_units'}  <br /> {error name='distanse_units'}
+        </td>
+        <td class="ow_desc ow_small">{text key='googlelocation+distanse_units_description'}</td>
+    </tr>
+    <tr class="ow_alt1 ">
+        <td class="ow_label">{text key='googlelocation+country_restriction_label'}</td>
+        <td class="ow_value">
+            {input name='country_restriction'}  <br /> {error name='country_restriction'}
+        </td>
+        <td class="ow_desc ow_small">{text key='googlelocation+country_restriction_description'}</td>
+    </tr>
+    <tr class="ow_alt1 ow_tr_last">
+        <td class="ow_label">{text key='googlelocation+auto_fill_location_on_search'}</td>
+        <td class="ow_value">
+            {input name='auto_fill_location_on_search'}  <br /> {error name='auto_fill_location_on_search'}
+        </td>
+        <td class="ow_desc ow_small">{text key='googlelocation+auto_fill_location_on_search_description'}</td>
+    </tr>
+</table>
+<div class="clearfix ow_submit ow_smallmargin"><div class="ow_right">{submit name='save' class='ow_ic_save ow_positive'}</div></div>
+
+{/form}

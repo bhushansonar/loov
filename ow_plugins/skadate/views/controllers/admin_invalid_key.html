@@ -1,0 +1,9 @@
+<div class="ow_anno ow_center ow_stdmargin">
+{text key='skadate+invalid_license_key'}
+</div>
+<div class="ow_wide ow_automargin ow_stdmargin">
+    <div class="ow_stdmargin">{text key='skadate+invalid_key_text'}</div>
+    <div class="">
+        {if !empty($input)}<input id="sk_lkey" value="{text key="skadate+form_enter_key"}" class="owinvitation" onfocus="$(this).val('');" name="key" />{/if}{decorator name="button" class='ow_red ow_ic_delete' langLabel='skadate+check_btn_label' onclick="window.location = '`$url`{if !empty($input)}&key='+$('#sk_lkey').val(){else}'{/if};"}
+    </div>
+</div>

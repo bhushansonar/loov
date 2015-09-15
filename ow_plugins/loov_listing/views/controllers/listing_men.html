@@ -1,0 +1,41 @@
+<div class="single">
+    <div class="single-gallery">
+        <h2>Men</h2>
+        <div class="col-sm-10 col-sm-offset-2">
+            <div class="row">
+                {foreach from=$menListing item='item'}
+                <div class="col-sm-2">
+                    <div class="gallery-panel">
+                        <div class="ow_avatar_console ow_border ow_profile_gallery_avatar_console ow_bg_color">
+                            <div class="w_profil_image">
+
+
+                                <a href="{$site_url}user/{$item.user_name}">
+                                    <img alt="" src="{$item.profile_picture}">
+                                    <!--                        <a class="bell" href="javascript: void(0)"><i class="fa fa-bell-o"></i> <span>3</span></a>-->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glry-btm">
+                            <h3>{$item.realname}</h3>
+                            <div>
+                                <span style="width: 45px;">Age:</span>
+                                <span>{$item.age}</span>
+                            </div>
+                            <!--                        <div>
+                                                        <span style="width: 45px;">From    :</span>
+                                                        <span>Rochester, NY</span>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Send Message</button>-->
+                        </div>
+                    </div>
+                </div>
+                {/foreach}
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pag">
+    {$paging}
+</div>

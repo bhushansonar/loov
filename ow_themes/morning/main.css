@@ -1,0 +1,324 @@
+.index_master_page .ow_header, .header_bg{
+    /*    background-image: url("img/bg.jpg");*/
+
+}
+.base_sign_in{background-size: cover;}
+.index_master_page .ow_header_pic{
+    height: 170px;
+}
+
+.index_master_page_wrap{
+    background-position: center bottom;
+    background-size: cover;
+    height: 576px;
+}
+
+
+.index_qs_widget{
+    left: 34% !important;
+    position: absolute !important;
+    top: 34% !important;
+    width: 60% !important;
+}
+.searchbox_width{
+    width: 50%;
+    background: #ffffff !important;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #9dd2ff 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#9dd2ff))!important;
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#9dd2ff 100%) !important;
+    background: -o-linear-gradient(top,  #ffffff 0%,#9dd2ff 100%) !important;
+    background: -ms-linear-gradient(top,  #ffffff 0%,#9dd2ff 100%) !important;
+    background: linear-gradient(to bottom,  #ffffff 0%,#9dd2ff 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9dd2ff',GradientType=0 ) !important;
+    /*    background-color: #a0deff !important;*/
+}
+.searchbox_width label, .searchbox_width .birthdate,.searchbox_width .ow_googlelocation_search_miles_from{ font-size: 11.25pt; font-weight: bold; }
+.quick_gender, .quick_checkbox{ float: left; text-align: center; width: 50%;}
+.quick_age, .quick_location{float: left; text-align: center; width: 100%;}
+.quick_btn{ text-align: center; }
+.quick_title{ text-align: center;}
+.quick_title h3{ font-size: 11.5pt; font-weight: bold;}
+.bottom_menu_vertical{ text-align: left; width: 26%; float:left; }
+.bottom_menu_vertical a{ float: left; width: 100%; font-size:13px; line-height: 25px;}
+.success_story { float: left; width: 30%; }
+.our_app{ float: left; width: 30%; margin-left: 5%; }
+.our_app h3{margin-bottom: 4px;font-size: 14px;color: #ffffff;}
+/*.iso-img { margin-bottom: 4px;}*/
+.footer_width{ width: 96%;}
+.copyright_symbol{ width: 100%; float: left;}
+.copyright_width{ width: 90%; text-align: center;}
+.logo_img{
+    /*background-image: url("img/logo.jpg");*/
+}
+.ow_footer_menu a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 27px;
+}
+.ow_footer{
+    background: none repeat scroll 0 0 #14899b;
+    margin-top: 0;
+    padding: 35px 0 20px;
+    height: auto;
+}
+.ow_header_pic{
+    height: 165px; width: 239px;
+}
+.custom_menu{
+    /*    background: none repeat scroll 0 0 #ecebeb;
+        border-bottom: 10px solid #f5f5f5;
+        border-top: 6px solid #f5f5f5;*/
+    padding: 10px 0;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+}
+.logo_url { min-height: 149px;
+}
+.custom_menu span{
+    display: inline-block;
+    width: 100%;
+}
+.custom_menu img{
+    display: inline-block;
+    width: auto;
+    height: 100px
+
+}
+#jcl-demo{ background:#fff; border-top: solid 4px #1B9DE3; }
+.index_master_page .ow_header{
+    margin: -70px auto 0;
+}
+/*.ow_page_padding{
+    margin: 0;
+}*/
+.ow_header_pic_wrap{
+    padding: 0 0 142px;
+}
+.ow_header{ background-size: cover; background-position: center;
+            height: 470px; }
+/*slider start*/
+.custom-container{ 
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    padding: 30px 0;
+}
+
+.left_icon{
+    left: 0;
+    position: absolute;
+    top: 100px;
+    z-index: 5;
+}
+.right_icon{
+    position: absolute;
+    right: 0;
+    text-indent: 10px;
+    top: 100px;
+    z-index: 5;
+}
+
+.carousel img {
+    border: 1px solid #c4dafc;
+    border-radius: 10px;
+    /*    height: 150px;*/
+}
+
+.carousel a {
+
+}
+#jcl-demo .carousel {
+    /*    border: 1px solid #bababa;*/
+    border-radius: 10px;
+    /*    background-color: ghostwhite;*/
+    float: left;
+    /*    height: 150px;*/
+    /*    padding-left: 10px;*/
+
+    /* Needed for rendering without flicker */
+    position: relative;
+    visibility: hidden;
+    left: -5000px;
+}
+/* Styling for image based carousel content. Only width and height are mandatory */
+#jcl-demo .carousel>ul>li>img {
+    width: 150px;
+    height: 118px;
+    vertical-align:middle;
+
+    /* optional */
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+}
+
+/* Styling for text based carousel content. Only width and height are mandatory */
+#jcl-demo .carousel>ul>li>p {
+    width: 130px;
+    height: 98px;
+
+    margin: 10px 10px 10px 0;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    line-height: normal;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* Styles for PREV and NEXT anchor buttons */
+#jcl-demo a.prev, #jcl-demo a.next, #jcl-demo a.go {
+    display: block;
+    width: 26px;
+    height: 30px;
+    line-height: 1;
+
+    background-color: #333333;
+    color: ghostwhite;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+    border-radius: 8px;
+    float: left;
+}
+#jcl-demo a.prev.disabled, #jcl-demo a.next.disabled,
+#jcl-demo a.prev.disabled:hover, #jcl-demo a.next.disabled:hover {
+    background-color: #8d8d8d;
+    cursor: default;
+}
+#jcl-demo a.go.highlight {
+    background-color: #dedede;
+    color: #000;
+}
+#jcl-demo a.prev {
+    /*    margin: 50px -5px 0 0;*/
+    text-indent: 7px;
+}
+#jcl-demo a.next {
+    /*    margin: 50px 0 0 -5px;*/
+    text-indent: 10px;
+}
+#jcl-demo a.prev:hover, #jcl-demo a.next:hover, #jcl-demo a.go:hover {
+    background-color: #666666;
+}
+
+/* Additional carousel styles for external controls, slider, widget, mid etc. */
+
+#jcl-demo .externalControl button,
+#jcl-demo .imageSliderExt button {
+    margin: 5px 5px 0 0;
+}
+#jcl-demo .externalControl a.next, #jcl-demo .externalControl a.prev, #jcl-demo .externalControl a.go,
+#jcl-demo .imageSliderExt a.next, #jcl-demo .imageSliderExt a.prev, #jcl-demo .imageSliderExt a.go
+{
+    margin: 0 5px 0 0;
+    padding: 7px 5px 0 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#jcl-demo .widget img {
+    cursor: pointer;
+}
+#jcl-demo .mid {
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+}
+#jcl-demo .vertical {
+    margin-left: 170px;
+}
+
+#jcl-demo .imageSlider .carousel>ul>li>img,
+#jcl-demo .imageSliderExt .carousel>ul>li>img {
+    width: 600px;
+    height: 500px;
+}
+#jcl-demo .imageSlider .carousel>ul>li>p,
+#jcl-demo .imageSliderExt .carousel>ul>li>p {
+    width: 380px;
+    height: 280px;
+}
+
+/* Other common styles */
+
+.clear {
+    clear: both;
+}
+/*slider end*/
+.header_bg-index{ padding: 75px 0 208px !important;}
+.woman_mid{
+    margin: 0 auto;
+}
+.gallery-panel {
+    background: none repeat scroll 0 0 #f7f7f7;
+    margin-bottom: 10px;
+}
+.gallery-top {
+    position: relative;
+}
+.bell {
+    bottom: 10px;
+    color: #fff;
+    left: 15px;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.bell span {
+    background: none repeat scroll 0 0 #ff6b6b;
+    border-radius: 50%;
+    bottom: 12px;
+    color: #fff;
+    content: "";
+    font-size: 10px;
+    height: 15px;
+    left: 6px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    width: 15px;
+}
+.glry-btm {
+    padding: 20px 12px;
+}
+.glry-btm h3 {
+    color: #767676;
+    font-size: 16px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+.col-sm-2{
+    width: 19.6667%;
+    float: left;
+}
+/*.custom_margin{
+    margin: 0;
+}*/
+/*.w_profil_image{
+
+}*/
+/*.w_profil_image img{
+    height: 192px;
+    width: 180px;
+}*/
+.w_profil_image img {
+    height: 156px;
+    width: 143px;
+}
+.single h2 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 26px;
+    text-align: center;
+
+}
+.single{
+    overflow: hidden;
+}
+.pag{
+    text-align: center;
+}
+.ow.base_index_page{
+    background: #FFFFFF;
+}

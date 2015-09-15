@@ -1,0 +1,25 @@
+google_maps_location plugin (build 50) 2014-07-10:
+==============================
+- added map widget for groups
+- able to delete selected location on Join, Edit and Search form
+- able to limit location suggest results by country name
+
+google_maps_location plugin (build 36) 2014-07-10:
+==============================
+- bug fix
+- able to change Distance Units in plugin settings
+- auto fill location from user detail on search
+
+google_maps_location plugin (build 25) 2014-01-14:
+==============================
+- display multiple users in one location
+- search by distance
+- map auto zoom
+- location for events
+- mobile version support
+
+
+google_maps_location plugin (build 15) 2013-01-30:
+==============================
+- Fixed bug with displaying location filed on profile view page
+

@@ -1,0 +1,21 @@
+<div class="ow_footer_menu bottom_menu_vertical">
+    {foreach from=$data item='item' name='bottom_menu'}
+    <a href="{$item.url}"{if $item.active} class="active"{/if}{if $item.new_window} target="_blank"{/if}>{$item.label}</a>{if !$smarty.foreach.bottom_menu.last}  {/if}
+    {/foreach}
+</div>
+<div class="success_story">
+    <!--    <h3>Success Story</h3>-->
+    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</span>
+</div>
+<div class="our_app">
+    <h3>Our Apps</h3>
+<!--    <span>iPhone1</span>-->
+<span>
+    <img class="iso-img" src="{$item.site_url}ow_static/themes/morning/img/ios.png">
+</span>
+    <br>
+    <span>
+    <img src="{$item.site_url}ow_static/themes/morning/img/androidlogo-png.png">
+</span>
+<!--    <span>Android1</span>-->
+</div>

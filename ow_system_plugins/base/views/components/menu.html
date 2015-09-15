@@ -1,0 +1,13 @@
+
+<!--bhushan changes menu-->
+<ul class="{$class} clearfix">
+    {foreach from=$data item='item'}
+    <li class="{$item.class}{if !empty($item.active)} active{/if}">
+        <a href="{$item.url}"{if $item.new_window} target="_blank"{/if}>
+           <img src="{$item.site_url}ow_static/themes/morning/img/{$item.label}.png">
+            <span>{$item.label}</span>
+        </a>
+    </li>
+    {/foreach}
+</ul>
+<!--end bhushan changes-->
